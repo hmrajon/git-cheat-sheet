@@ -1,0 +1,92 @@
+
+echo "# my-website" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/hmrajon/my-website.git
+git push -u origin main
+
+----------------------------------------------------------------------------
+
+ = Frist setup
+
+echo "# my-website" >> README.md
+git init
+git add .
+git commit -m "first commit"
+git remote add origin https://github.com/hmrajon/my-website.git
+git push -u origin master
+
+ = Always upload
+
+git add .
+git commit -m "je kono word"
+git push
+
+---------------------------------------------------------------
+git branch = all branch name show
+
+git branch -a = all branch name show
+
+git checkout name = git branch select
+
+git checkout -b name = git branch create
+
+git push origin --delete name = git branch delete 
+
+----------------------------------------------------------------
+
+
+git config --global user.name "<username>"  = Configure the author name.
+
+git config --global user.email <email address>  = Configure the author email address.
+
+--------------------------------------------------------------------------------------
+
+
+git clone ssh://git@github.com/<username>/<repository-name>.git  = Create a local copy of aremote repository
+
+
+--------------------------------------------------------------------------------------
+
+git diff = code change view
+
+---------------------------------------------------------------------------------------------
+
+C:\Users\hmraj>E:                       Folder select
+
+E:\>cd E:\Vs Code
+
+---------------------------------------------------------------------------------------------
+
+git status = all file show
+
+---------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
